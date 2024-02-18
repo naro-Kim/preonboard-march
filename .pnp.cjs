@@ -31,6 +31,7 @@ const RAW_RUNTIME_STATE =
           ["@storybook/addon-links", "virtual:b229fcc7bbbe8128cbf8db1b9a874bc15e11102699937fe4f411fe6a3dd0be2fd55ce311679100606db0330444a2e32ea88abc6bf1ae56731a37003afb5cc876#npm:7.6.16"],\
           ["@storybook/addon-onboarding", "virtual:b229fcc7bbbe8128cbf8db1b9a874bc15e11102699937fe4f411fe6a3dd0be2fd55ce311679100606db0330444a2e32ea88abc6bf1ae56731a37003afb5cc876#npm:1.0.11"],\
           ["@storybook/blocks", "virtual:b229fcc7bbbe8128cbf8db1b9a874bc15e11102699937fe4f411fe6a3dd0be2fd55ce311679100606db0330444a2e32ea88abc6bf1ae56731a37003afb5cc876#npm:7.6.16"],\
+          ["@storybook/builder-vite", "virtual:b229fcc7bbbe8128cbf8db1b9a874bc15e11102699937fe4f411fe6a3dd0be2fd55ce311679100606db0330444a2e32ea88abc6bf1ae56731a37003afb5cc876#npm:7.6.16"],\
           ["@storybook/react", "virtual:b229fcc7bbbe8128cbf8db1b9a874bc15e11102699937fe4f411fe6a3dd0be2fd55ce311679100606db0330444a2e32ea88abc6bf1ae56731a37003afb5cc876#npm:7.6.16"],\
           ["@storybook/react-vite", "virtual:b229fcc7bbbe8128cbf8db1b9a874bc15e11102699937fe4f411fe6a3dd0be2fd55ce311679100606db0330444a2e32ea88abc6bf1ae56731a37003afb5cc876#npm:7.6.16"],\
           ["@storybook/test", "npm:7.6.16"],\
@@ -5347,6 +5348,47 @@ const RAW_RUNTIME_STATE =
           ["@storybook/builder-vite", "npm:7.6.16"]\
         ],\
         "linkType": "SOFT"\
+      }],\
+      ["virtual:b229fcc7bbbe8128cbf8db1b9a874bc15e11102699937fe4f411fe6a3dd0be2fd55ce311679100606db0330444a2e32ea88abc6bf1ae56731a37003afb5cc876#npm:7.6.16", {\
+        "packageLocation": "./.yarn/__virtual__/@storybook-builder-vite-virtual-10b4e18170/0/cache/@storybook-builder-vite-npm-7.6.16-a2ac13a7e9-256059ef58.zip/node_modules/@storybook/builder-vite/",\
+        "packageDependencies": [\
+          ["@storybook/builder-vite", "virtual:b229fcc7bbbe8128cbf8db1b9a874bc15e11102699937fe4f411fe6a3dd0be2fd55ce311679100606db0330444a2e32ea88abc6bf1ae56731a37003afb5cc876#npm:7.6.16"],\
+          ["@preact/preset-vite", null],\
+          ["@storybook/channels", "npm:7.6.16"],\
+          ["@storybook/client-logger", "npm:7.6.16"],\
+          ["@storybook/core-common", "npm:7.6.16"],\
+          ["@storybook/csf-plugin", "npm:7.6.16"],\
+          ["@storybook/node-logger", "npm:7.6.16"],\
+          ["@storybook/preview", "npm:7.6.16"],\
+          ["@storybook/preview-api", "npm:7.6.16"],\
+          ["@storybook/types", "npm:7.6.16"],\
+          ["@types/find-cache-dir", "npm:3.2.1"],\
+          ["@types/preact__preset-vite", null],\
+          ["@types/typescript", null],\
+          ["@types/vite", null],\
+          ["@types/vite-plugin-glimmerx", null],\
+          ["browser-assert", "npm:1.2.1"],\
+          ["es-module-lexer", "npm:0.9.3"],\
+          ["express", "npm:4.18.2"],\
+          ["find-cache-dir", "npm:3.3.2"],\
+          ["fs-extra", "npm:11.2.0"],\
+          ["magic-string", "npm:0.30.7"],\
+          ["rollup", "npm:3.29.4"],\
+          ["typescript", "patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>::version=5.3.3&hash=e012d7"],\
+          ["vite", "virtual:b229fcc7bbbe8128cbf8db1b9a874bc15e11102699937fe4f411fe6a3dd0be2fd55ce311679100606db0330444a2e32ea88abc6bf1ae56731a37003afb5cc876#npm:5.1.3"],\
+          ["vite-plugin-glimmerx", null]\
+        ],\
+        "packagePeers": [\
+          "@preact/preset-vite",\
+          "@types/preact__preset-vite",\
+          "@types/typescript",\
+          "@types/vite-plugin-glimmerx",\
+          "@types/vite",\
+          "typescript",\
+          "vite-plugin-glimmerx",\
+          "vite"\
+        ],\
+        "linkType": "HARD"\
       }],\
       ["virtual:b867609c40afb8add7b3a1891f1b2daa8beb9013e8fb2eb70074f8b65e20cb2d2106517a2dd687e41be951313a752ab35916284eb5d80721da2c815b3a3aa465#npm:7.6.16", {\
         "packageLocation": "./.yarn/__virtual__/@storybook-builder-vite-virtual-23345a3e5c/0/cache/@storybook-builder-vite-npm-7.6.16-a2ac13a7e9-256059ef58.zip/node_modules/@storybook/builder-vite/",\
@@ -12075,6 +12117,7 @@ const RAW_RUNTIME_STATE =
           ["@storybook/addon-links", "virtual:b229fcc7bbbe8128cbf8db1b9a874bc15e11102699937fe4f411fe6a3dd0be2fd55ce311679100606db0330444a2e32ea88abc6bf1ae56731a37003afb5cc876#npm:7.6.16"],\
           ["@storybook/addon-onboarding", "virtual:b229fcc7bbbe8128cbf8db1b9a874bc15e11102699937fe4f411fe6a3dd0be2fd55ce311679100606db0330444a2e32ea88abc6bf1ae56731a37003afb5cc876#npm:1.0.11"],\
           ["@storybook/blocks", "virtual:b229fcc7bbbe8128cbf8db1b9a874bc15e11102699937fe4f411fe6a3dd0be2fd55ce311679100606db0330444a2e32ea88abc6bf1ae56731a37003afb5cc876#npm:7.6.16"],\
+          ["@storybook/builder-vite", "virtual:b229fcc7bbbe8128cbf8db1b9a874bc15e11102699937fe4f411fe6a3dd0be2fd55ce311679100606db0330444a2e32ea88abc6bf1ae56731a37003afb5cc876#npm:7.6.16"],\
           ["@storybook/react", "virtual:b229fcc7bbbe8128cbf8db1b9a874bc15e11102699937fe4f411fe6a3dd0be2fd55ce311679100606db0330444a2e32ea88abc6bf1ae56731a37003afb5cc876#npm:7.6.16"],\
           ["@storybook/react-vite", "virtual:b229fcc7bbbe8128cbf8db1b9a874bc15e11102699937fe4f411fe6a3dd0be2fd55ce311679100606db0330444a2e32ea88abc6bf1ae56731a37003afb5cc876#npm:7.6.16"],\
           ["@storybook/test", "npm:7.6.16"],\

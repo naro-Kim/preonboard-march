@@ -36,6 +36,7 @@ const RAW_RUNTIME_STATE =
           ["@storybook/react", "virtual:b229fcc7bbbe8128cbf8db1b9a874bc15e11102699937fe4f411fe6a3dd0be2fd55ce311679100606db0330444a2e32ea88abc6bf1ae56731a37003afb5cc876#npm:7.6.16"],\
           ["@storybook/react-vite", "virtual:b229fcc7bbbe8128cbf8db1b9a874bc15e11102699937fe4f411fe6a3dd0be2fd55ce311679100606db0330444a2e32ea88abc6bf1ae56731a37003afb5cc876#npm:7.6.16"],\
           ["@storybook/test", "npm:7.6.16"],\
+          ["@testing-library/react", "virtual:b229fcc7bbbe8128cbf8db1b9a874bc15e11102699937fe4f411fe6a3dd0be2fd55ce311679100606db0330444a2e32ea88abc6bf1ae56731a37003afb5cc876#npm:14.2.1"],\
           ["@types/react", "npm:18.2.56"],\
           ["@types/react-dom", "npm:18.2.19"],\
           ["@typescript-eslint/eslint-plugin", "virtual:b229fcc7bbbe8128cbf8db1b9a874bc15e11102699937fe4f411fe6a3dd0be2fd55ce311679100606db0330444a2e32ea88abc6bf1ae56731a37003afb5cc876#npm:6.21.0"],\
@@ -6271,6 +6272,34 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@testing-library/react", [\
+      ["npm:14.2.1", {\
+        "packageLocation": "./.yarn/cache/@testing-library-react-npm-14.2.1-95eb1af3fb-83b35cf8bf.zip/node_modules/@testing-library/react/",\
+        "packageDependencies": [\
+          ["@testing-library/react", "npm:14.2.1"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:b229fcc7bbbe8128cbf8db1b9a874bc15e11102699937fe4f411fe6a3dd0be2fd55ce311679100606db0330444a2e32ea88abc6bf1ae56731a37003afb5cc876#npm:14.2.1", {\
+        "packageLocation": "./.yarn/__virtual__/@testing-library-react-virtual-b490a6dc12/0/cache/@testing-library-react-npm-14.2.1-95eb1af3fb-83b35cf8bf.zip/node_modules/@testing-library/react/",\
+        "packageDependencies": [\
+          ["@testing-library/react", "virtual:b229fcc7bbbe8128cbf8db1b9a874bc15e11102699937fe4f411fe6a3dd0be2fd55ce311679100606db0330444a2e32ea88abc6bf1ae56731a37003afb5cc876#npm:14.2.1"],\
+          ["@babel/runtime", "npm:7.23.9"],\
+          ["@testing-library/dom", "npm:9.3.4"],\
+          ["@types/react", "npm:18.2.56"],\
+          ["@types/react-dom", "npm:18.2.19"],\
+          ["react", "npm:18.2.0"],\
+          ["react-dom", "virtual:b229fcc7bbbe8128cbf8db1b9a874bc15e11102699937fe4f411fe6a3dd0be2fd55ce311679100606db0330444a2e32ea88abc6bf1ae56731a37003afb5cc876#npm:18.2.0"]\
+        ],\
+        "packagePeers": [\
+          "@types/react-dom",\
+          "@types/react",\
+          "react-dom",\
+          "react"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@testing-library/user-event", [\
       ["npm:14.3.0", {\
         "packageLocation": "./.yarn/cache/@testing-library-user-event-npm-14.3.0-570c508fee-8a0e708709.zip/node_modules/@testing-library/user-event/",\
@@ -12257,6 +12286,7 @@ const RAW_RUNTIME_STATE =
           ["@storybook/react", "virtual:b229fcc7bbbe8128cbf8db1b9a874bc15e11102699937fe4f411fe6a3dd0be2fd55ce311679100606db0330444a2e32ea88abc6bf1ae56731a37003afb5cc876#npm:7.6.16"],\
           ["@storybook/react-vite", "virtual:b229fcc7bbbe8128cbf8db1b9a874bc15e11102699937fe4f411fe6a3dd0be2fd55ce311679100606db0330444a2e32ea88abc6bf1ae56731a37003afb5cc876#npm:7.6.16"],\
           ["@storybook/test", "npm:7.6.16"],\
+          ["@testing-library/react", "virtual:b229fcc7bbbe8128cbf8db1b9a874bc15e11102699937fe4f411fe6a3dd0be2fd55ce311679100606db0330444a2e32ea88abc6bf1ae56731a37003afb5cc876#npm:14.2.1"],\
           ["@types/react", "npm:18.2.56"],\
           ["@types/react-dom", "npm:18.2.19"],\
           ["@typescript-eslint/eslint-plugin", "virtual:b229fcc7bbbe8128cbf8db1b9a874bc15e11102699937fe4f411fe6a3dd0be2fd55ce311679100606db0330444a2e32ea88abc6bf1ae56731a37003afb5cc876#npm:6.21.0"],\

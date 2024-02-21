@@ -48,7 +48,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-plugin-storybook", "virtual:b229fcc7bbbe8128cbf8db1b9a874bc15e11102699937fe4f411fe6a3dd0be2fd55ce311679100606db0330444a2e32ea88abc6bf1ae56731a37003afb5cc876#npm:0.8.0"],\
           ["react", "npm:18.2.0"],\
           ["react-dom", "virtual:b229fcc7bbbe8128cbf8db1b9a874bc15e11102699937fe4f411fe6a3dd0be2fd55ce311679100606db0330444a2e32ea88abc6bf1ae56731a37003afb5cc876#npm:18.2.0"],\
-          ["redux", "npm:5.0.1"],\
+          ["react-redux", "virtual:b229fcc7bbbe8128cbf8db1b9a874bc15e11102699937fe4f411fe6a3dd0be2fd55ce311679100606db0330444a2e32ea88abc6bf1ae56731a37003afb5cc876#npm:9.1.0"],\
           ["storybook", "npm:7.6.16"],\
           ["styled-components", "virtual:b229fcc7bbbe8128cbf8db1b9a874bc15e11102699937fe4f411fe6a3dd0be2fd55ce311679100606db0330444a2e32ea88abc6bf1ae56731a37003afb5cc876#npm:6.1.8"],\
           ["typescript", "patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>::version=5.3.3&hash=e012d7"],\
@@ -4882,7 +4882,7 @@ const RAW_RUNTIME_STATE =
           ["@types/react-redux", null],\
           ["immer", "npm:10.0.3"],\
           ["react", "npm:18.2.0"],\
-          ["react-redux", null],\
+          ["react-redux", "virtual:b229fcc7bbbe8128cbf8db1b9a874bc15e11102699937fe4f411fe6a3dd0be2fd55ce311679100606db0330444a2e32ea88abc6bf1ae56731a37003afb5cc876#npm:9.1.0"],\
           ["redux", "npm:5.0.1"],\
           ["redux-thunk", "virtual:0655fba1e22cb33f87ec68d515910fa3f3ddea891bb2ac79abcd8c74f49e28a607c5b496cfebcf4cae2ea762d8bc338ece3c65c7d10139b5a66f7d6939ec0629#npm:3.1.0"],\
           ["reselect", "npm:5.1.0"]\
@@ -6799,6 +6799,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/@types-unist-npm-2.0.10-f9b9ac478e-5f247dc222.zip/node_modules/@types/unist/",\
         "packageDependencies": [\
           ["@types/unist", "npm:2.0.10"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@types/use-sync-external-store", [\
+      ["npm:0.0.3", {\
+        "packageLocation": "./.yarn/cache/@types-use-sync-external-store-npm-0.0.3-875a91a914-82824c1051.zip/node_modules/@types/use-sync-external-store/",\
+        "packageDependencies": [\
+          ["@types/use-sync-external-store", "npm:0.0.3"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -12298,7 +12307,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-plugin-storybook", "virtual:b229fcc7bbbe8128cbf8db1b9a874bc15e11102699937fe4f411fe6a3dd0be2fd55ce311679100606db0330444a2e32ea88abc6bf1ae56731a37003afb5cc876#npm:0.8.0"],\
           ["react", "npm:18.2.0"],\
           ["react-dom", "virtual:b229fcc7bbbe8128cbf8db1b9a874bc15e11102699937fe4f411fe6a3dd0be2fd55ce311679100606db0330444a2e32ea88abc6bf1ae56731a37003afb5cc876#npm:18.2.0"],\
-          ["redux", "npm:5.0.1"],\
+          ["react-redux", "virtual:b229fcc7bbbe8128cbf8db1b9a874bc15e11102699937fe4f411fe6a3dd0be2fd55ce311679100606db0330444a2e32ea88abc6bf1ae56731a37003afb5cc876#npm:9.1.0"],\
           ["storybook", "npm:7.6.16"],\
           ["styled-components", "virtual:b229fcc7bbbe8128cbf8db1b9a874bc15e11102699937fe4f411fe6a3dd0be2fd55ce311679100606db0330444a2e32ea88abc6bf1ae56731a37003afb5cc876#npm:6.1.8"],\
           ["typescript", "patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>::version=5.3.3&hash=e012d7"],\
@@ -12751,6 +12760,38 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/react-is-npm-18.2.0-0cc5edb910-6eb5e4b280.zip/node_modules/react-is/",\
         "packageDependencies": [\
           ["react-is", "npm:18.2.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["react-redux", [\
+      ["npm:9.1.0", {\
+        "packageLocation": "./.yarn/cache/react-redux-npm-9.1.0-2af92d07b1-53161b5dc4.zip/node_modules/react-redux/",\
+        "packageDependencies": [\
+          ["react-redux", "npm:9.1.0"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:b229fcc7bbbe8128cbf8db1b9a874bc15e11102699937fe4f411fe6a3dd0be2fd55ce311679100606db0330444a2e32ea88abc6bf1ae56731a37003afb5cc876#npm:9.1.0", {\
+        "packageLocation": "./.yarn/__virtual__/react-redux-virtual-4ee8f0fe63/0/cache/react-redux-npm-9.1.0-2af92d07b1-53161b5dc4.zip/node_modules/react-redux/",\
+        "packageDependencies": [\
+          ["react-redux", "virtual:b229fcc7bbbe8128cbf8db1b9a874bc15e11102699937fe4f411fe6a3dd0be2fd55ce311679100606db0330444a2e32ea88abc6bf1ae56731a37003afb5cc876#npm:9.1.0"],\
+          ["@types/react", "npm:18.2.56"],\
+          ["@types/react-native", null],\
+          ["@types/redux", null],\
+          ["@types/use-sync-external-store", "npm:0.0.3"],\
+          ["react", "npm:18.2.0"],\
+          ["react-native", null],\
+          ["redux", null],\
+          ["use-sync-external-store", "virtual:4ee8f0fe63c2d33597f7cf2319c17a28d4bdb684a7ab650ffa98af2b0c8514224cf2315e4657019583cd3129021ce990386520fdea02a91629433e78d274bc8d#npm:1.2.0"]\
+        ],\
+        "packagePeers": [\
+          "@types/react-native",\
+          "@types/react",\
+          "@types/redux",\
+          "react-native",\
+          "react",\
+          "redux"\
         ],\
         "linkType": "HARD"\
       }]\
@@ -14526,6 +14567,28 @@ const RAW_RUNTIME_STATE =
           ["detect-node-es", "npm:1.1.0"],\
           ["react", "npm:18.2.0"],\
           ["tslib", "npm:2.6.2"]\
+        ],\
+        "packagePeers": [\
+          "@types/react",\
+          "react"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["use-sync-external-store", [\
+      ["npm:1.2.0", {\
+        "packageLocation": "./.yarn/cache/use-sync-external-store-npm-1.2.0-44f75d2564-ac4814e559.zip/node_modules/use-sync-external-store/",\
+        "packageDependencies": [\
+          ["use-sync-external-store", "npm:1.2.0"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:4ee8f0fe63c2d33597f7cf2319c17a28d4bdb684a7ab650ffa98af2b0c8514224cf2315e4657019583cd3129021ce990386520fdea02a91629433e78d274bc8d#npm:1.2.0", {\
+        "packageLocation": "./.yarn/__virtual__/use-sync-external-store-virtual-1027cf0bb4/0/cache/use-sync-external-store-npm-1.2.0-44f75d2564-ac4814e559.zip/node_modules/use-sync-external-store/",\
+        "packageDependencies": [\
+          ["use-sync-external-store", "virtual:4ee8f0fe63c2d33597f7cf2319c17a28d4bdb684a7ab650ffa98af2b0c8514224cf2315e4657019583cd3129021ce990386520fdea02a91629433e78d274bc8d#npm:1.2.0"],\
+          ["@types/react", "npm:18.2.56"],\
+          ["react", "npm:18.2.0"]\
         ],\
         "packagePeers": [\
           "@types/react",\

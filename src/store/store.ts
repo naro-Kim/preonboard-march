@@ -1,8 +1,12 @@
-import { configureStore } from '@reduxjs/toolkit'
-import { useState } from "react"
+// store.js
+import { configureStore } from '@reduxjs/toolkit';
+import taskReducer from './slices';
 
-// state / action / view
+const store = configureStore({
+  reducer: {
+    tasks: taskReducer,
+  },
+});
 
-export default configureStore({
-  reducer: {},
-})
+export type RootState = ReturnType<typeof store.getState>
+export default store;

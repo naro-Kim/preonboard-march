@@ -12,7 +12,8 @@
       "@/*": ["*"],
       "@components/*": ["components/*"],
       "@store/*": ["pages/*"],
-      "@design-system/*": ["design-system/*"]
+      "@design-system/*": ["design-system/*"],
+      "@styles/*": ["styles/*"]
     },
 
     /* Bundler mode */

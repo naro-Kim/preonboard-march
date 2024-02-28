@@ -36,8 +36,20 @@ type FlexType = "center" | "flex-start" | "flex-end";
 
 export type Flex = {
   flex?: number;
+  gap?: number;
   alignSelf?: FlexType;
   alignItems?: FlexType;
   justifyContent?: FlexType | "space-between" | "space-evenly";
+  cursor?: "pointer" | "grab" | undefined;
+};
+
+export type Grid = {
+  grid?: string;
+  gap?: number;
+  alignSelf?: FlexType;
+  alignItems?: FlexType;
+  justifyContent?: FlexType | "space-between" | "space-evenly";
+  gridTemplateRows?: string;
+  gridTemplateColumns?: string;
   cursor?: "pointer" | "grab" | undefined;
 };

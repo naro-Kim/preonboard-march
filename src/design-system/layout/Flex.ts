@@ -16,6 +16,7 @@ import { getStyle, toMarginPaddingString } from "./layout.utils";
  */
 export const LayoutBase = styled.div<BgColor & Flex & BoxStyle & Border>`
   ${({
+    gap,
   theme,
   p,
   ph,
@@ -46,7 +47,8 @@ export const LayoutBase = styled.div<BgColor & Flex & BoxStyle & Border>`
     ${getStyle("margin", toMarginPaddingString(m, mh, mv, mt, mr, mb, ml))}
     ${getStyle("width", w)}
     ${getStyle("height", h)}
-    ${getStyle("flex", flex)}
+    ${getStyle("flex", flex)} 
+    ${getStyle("gap", `${gap}px`)} 
     ${getStyle("border-radius", rounded)}
     ${getStyle(
   "border-color",
@@ -58,6 +60,7 @@ export const LayoutBase = styled.div<BgColor & Flex & BoxStyle & Border>`
     ? "border-width: 1px; border-style: solid;"
     : ""}
     display: flex;
+    gap: ${gap};
     flex-direction: column;
     align-items: ${alignItems};
     justify-content: ${justifyContent};

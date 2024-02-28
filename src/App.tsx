@@ -8,7 +8,7 @@ function App() {
         <Task />
       </L.GridRows>
     </>
-  )
+  );
 }
 
 export default App

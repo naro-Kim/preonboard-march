@@ -3,7 +3,7 @@ export type ListProps = {
 }
 
 export type TaskProps = {
-  id: number;
+  id: string;
   text: string;
   state: 'TASK_INBOX' | 'TASK_ARCHIVED';
 }

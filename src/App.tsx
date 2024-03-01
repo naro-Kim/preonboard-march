@@ -1,14 +1,11 @@
-import { L } from './design-system'
-import Task from '@/components/Task/Task'  
+import Task from "@/components/Task/Task";
 
-function App() { 
+function App() {
   return (
     <>
-      <L.GridRows>
-        <Task />
-      </L.GridRows>
+      <Task />
     </>
   );
 }
 
-export default App
+export default App;

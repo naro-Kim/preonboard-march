@@ -17,4 +17,15 @@ export const theme = {
     body: '#202B3D',
     caption: '#636C79',
   },
+  text: {
+    bodyLight: '200',
+    bodyRegular: '400',
+    bodyMedium: '500',
+  },
+  shadow: {
+    xs: 'rgba(149, 157, 165, 0.2) 0px 1px 3px 0px, rgba(149, 157, 165, 0.2) 0px 1px 2px 0px;',
+    sm: 'rgba(149, 157, 165, 0.2) 0px 4px 6px -1px, rgba(149, 157, 165, 0.2) 0px 2px 4px -1px;',
+    md: 'rgba(149, 157, 165, 0.2) 0px 10px 15px -3px, rgba(149, 157, 165, 0.2) 0px 4px 6px -2px;',
+    lg: 'rgba(149, 157, 165, 0.2) 0px 20px 25px -5px, rgba(149, 157, 165, 0.2) 0px 10px 10px -5px;',
+  }
 }

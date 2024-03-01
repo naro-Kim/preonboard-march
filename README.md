@@ -1,8 +1,7 @@
 # wanted-pre-onboarding-frontend-challenge-19
 3월 프론트엔드 프리온보딩 과정을 위한 사전과제입니다. 
 
-## 이력서 주소
-
+![todo](https://github.com/naro-Kim/preonboard-march/assets/51940808/f065cd0f-03ec-4e3a-b6d6-9b809008b03e)
 
 ## 📁 디렉토리 설명
 ```

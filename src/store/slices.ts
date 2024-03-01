@@ -13,8 +13,7 @@ export const taskSlice = createSlice({
       const { id, text } = action.payload;
       state.tasks.push({ id, text, state: 'TASK_INBOX' });
     },
-    taskDeleted: (state, action: PayloadAction<string>) => {
-      console.log('task add')
+    taskDeleted: (state, action: PayloadAction<string>) => { 
       state.tasks
         = state.tasks.filter(tasks => tasks.id !== action.payload)
     }
